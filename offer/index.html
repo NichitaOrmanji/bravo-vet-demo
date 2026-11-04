@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Предложение для клиники «Команда Браво»</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,700;0,800;1,500&family=Manrope:wght@400;500;600;700&family=PT+Mono&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<style>
+:root{--cream:#f6f0e4;--paper:#fffaf0;--ink:#1d2340;--ink-2:#4b5170;--ink-3:#858aa3;--line:rgba(29,35,64,.14);--line-strong:rgba(29,35,64,.3);--cobalt:#2a4bd7;--cobalt-dark:#1d37a6;--cobalt-soft:#dfe5fb;--sun:#f4c63d;--sun-soft:#fbe9ad;
+  --serif:"Alegreya",Georgia,serif;--sans:"Manrope",system-ui,sans-serif;--mono:"PT Mono",ui-monospace,monospace}
+*{box-sizing:border-box}
+body{margin:0;background:var(--cream);color:var(--ink);font:400 15.5px/1.6 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+.page{max-width:900px;margin:0 auto;padding:40px 20px 80px}
+.label{font:400 11.5px/1.3 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--cobalt)}
+h1{font:800 clamp(2.1rem,5vw,3.3rem)/1.02 var(--serif);letter-spacing:-.01em;margin:14px 0 0}
+h1 i{font-weight:500;color:var(--cobalt)}
+h2{font:800 clamp(1.6rem,3vw,2.1rem)/1.1 var(--serif);margin:6px 0 18px}
+p{margin:0 0 12px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-bottom:18px;border-bottom:1.5px solid var(--ink)}
+.lang{display:flex;border:1.5px solid var(--ink);border-radius:4px;overflow:hidden}
+.lang button{border:0;background:none;padding:5px 10px;font:400 12px/1 var(--mono);cursor:pointer;color:var(--ink-2)}
+.lang button[aria-pressed="true"]{background:var(--ink);color:var(--cream)}
+.from{font:400 12.5px/1.4 var(--mono);color:var(--ink-2)}
+.intro{display:grid;gap:28px;margin-top:36px}
+@media(min-width:760px){.intro{grid-template-columns:1fr 200px;align-items:end}}
+.lead{font-size:17px;color:var(--ink-2);margin-top:16px;max-width:36rem}
+.qr{background:var(--paper);border:1.5px solid var(--ink);border-radius:4px;padding:16px;text-align:center;box-shadow:5px 5px 0 var(--cobalt);transform:rotate(1.2deg)}
+.qr svg{width:100%;height:auto;display:block}
+.qr a{display:block;margin-top:10px;font:400 11px/1.3 var(--mono);word-break:break-all;text-decoration:none}
+section{margin-top:56px}
+.facts{list-style:none;padding:0;margin:0;border:1.5px solid var(--ink);border-radius:4px;background:var(--paper)}
+.facts li{display:grid;grid-template-columns:22px 1fr;gap:12px;padding:14px 18px;border-bottom:1px dashed var(--line-strong)}
+.facts li:last-child{border-bottom:0}
+.facts li::before{content:"";width:14px;height:14px;border:1.5px solid var(--ink);border-radius:2px;background:var(--sun);margin-top:5px}
+.facts b{font-weight:700}
+.shots{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:760px){.shots{grid-template-columns:2.2fr 1fr 1fr;align-items:start}}
+.shots img{width:100%;display:block;border-radius:4px;border:1.5px solid var(--ink);background:#fff}
+.gets{display:grid;gap:14px}
+@media(min-width:760px){.gets{grid-template-columns:1fr 1fr}}
+.gets div{background:var(--paper);border:1.5px solid var(--ink);border-radius:4px;padding:18px 20px}
+.gets b{display:block;font:700 1.15rem/1.2 var(--serif);margin-bottom:6px}
+.gets span{color:var(--ink-2);font-size:14.5px}
+.plans{display:grid;gap:14px}
+@media(min-width:760px){.plans{grid-template-columns:repeat(3,1fr)}}
+.plan{background:var(--paper);border:1.5px solid var(--ink);border-radius:4px;padding:22px;display:flex;flex-direction:column}
+.plan.best{background:var(--cobalt);color:#fff;box-shadow:5px 5px 0 var(--ink)}
+.plan.best .label{color:var(--sun)}
+.plan h3{font:800 24px/1.1 var(--serif);margin:8px 0 4px}
+.price{font:800 32px/1.1 var(--serif);margin:10px 0 2px}
+.price small{font:400 12px var(--mono);opacity:.75}
+.sub{font:400 11.5px/1.4 var(--mono);opacity:.75;margin-bottom:14px}
+.plan ul{margin:0;padding:0 0 0 18px;font-size:14.5px}
+.plan li{margin:4px 0}
+.plan .plus{font-weight:700}
+.steps{list-style:none;padding:0;margin:0;border-top:1.5px solid var(--ink)}
+.steps li{display:grid;grid-template-columns:130px 1fr;gap:12px;padding:14px 0;border-bottom:1px dashed var(--line-strong)}
+.steps .when{font:400 12px/1.9 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--cobalt-dark)}
+@media(max-width:560px){.steps li{grid-template-columns:1fr;gap:2px}}
+.contact{margin-top:56px;background:var(--ink);color:var(--cream);border-radius:4px;padding:28px}
+.contact h2{margin-bottom:8px}
+.contact p{color:rgba(246,240,228,.75)}
+.contact .who{font:600 17px/1.5 var(--sans);color:#fff;margin-top:14px}
+.contact .who a{text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35)}
+.contact .who a:hover{border-color:#fff}
+.note{font-size:12.5px;color:var(--ink-3);margin-top:28px}
+.print-btn{border:1.5px solid var(--ink);background:var(--paper);border-radius:4px;padding:6px 12px;font:400 12px var(--mono);cursor:pointer}
+@media print{
+  @page{size:A4;margin:12mm}
+  body{background:#fff;font-size:12.5px}
+  .page{padding:0;max-width:none}
+  .lang,.print-btn{display:none}
+  section{margin-top:22px;break-inside:auto}
+  h2{break-after:avoid;margin-bottom:12px}
+  .label{break-after:avoid}
+  .shots,.facts,.steps{break-inside:avoid}
+  .lead{font-size:14px}
+  .facts li{padding:10px 16px}
+  .gets div{padding:14px 16px}
+  .gets span,.plan ul{font-size:13px}
+  .steps li{padding:10px 0}
+  .plan,.gets div{break-inside:avoid}
+  .plan.best,.contact,.facts li::before,.qr,.facts{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .contact{break-inside:avoid;margin-top:28px}
+  .intro{grid-template-columns:1fr 150px;align-items:end;margin-top:24px}
+  .qr{transform:none}
+  .shots{grid-template-columns:2.2fr 1fr 1fr;align-items:start}
+  .gets{grid-template-columns:1fr 1fr}
+  .plans{grid-template-columns:repeat(3,1fr)}
+  .plan{padding:16px}
+  .price{font-size:26px}
+  h1{font-size:32px}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="top">
+    <div class="from" data-i18n="from">Предложение для клиники «Команда Браво» · ноябрь 2026</div>
+    <div style="display:flex;gap:8px;align-items:center">
+      <button class="print-btn" type="button" onclick="window.print()" data-i18n="print">PDF / печать</button>
+      <div class="lang"><button type="button" data-lang="ru" aria-pressed="true">RU</button><button type="button" data-lang="ro" aria-pressed="false">RO</button></div>
+    </div>
+  </div>
+
+  <div class="intro">
+    <div>
+      <div class="label" data-i18n="k_intro">Сайт для ветклиники «Команда Браво»</div>
+      <h1 data-i18n="h1">333 отзыва и врач, которого знают по имени. <i>Не хватает только сайта.</i></h1>
+      <p class="lead" data-i18n="lead">Я сделал концепт сайта для вашей клиники. Он уже работает, его можно открыть с телефона и полистать. Ниже — что он даёт клинике и сколько стоит запуск.</p>
+    </div>
+    <div class="qr">
+      <div id="qr"></div>
+      <a id="demo-link" href="#" target="_blank" rel="noopener"></a>
+    </div>
+  </div>
+
+  <section>
+    <div class="label" data-i18n="k_now">Сейчас</div>
+    <h2 data-i18n="h_now">Что я увидел</h2>
+    <ul class="facts">
+      <li><span data-i18n="f1">У клиники <b>нет сайта</b>. В Google Картах у карточки с 333 отзывами вместо ссылки стоит «Добавить сайт».</span></li>
+      <li><span data-i18n="f2"><b>Разные телефоны</b> в разных местах: в Google — городской 022 661 444, в Facebook и на Яндекс Картах — 079 588 317. Человек не знает, по какому звонить.</span></li>
+      <li><span data-i18n="f3">Приём <b>только по записи</b>, но записаться можно лишь звонком в рабочие часы. Вечером и в воскресенье человек просто откладывает — или идёт в другую клинику.</span></li>
+      <li><span data-i18n="f4">В Instagram — сильные клинические случаи: 19 камней из уретры, пустышка в кишечнике щенка, исправление прикуса. Но они тонут в ленте, и через Google их не найти.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <div class="label" data-i18n="k_demo">Концепт</div>
+    <h2 data-i18n="h_demo">Как это выглядит</h2>
+    <div class="shots">
+      <img src="desktop.jpg" alt="Сайт на компьютере">
+      <img src="mobile.jpg" alt="Сайт на телефоне">
+      <img src="mobile-prep.jpg" alt="Памятка до и после операции на телефоне">
+    </div>
+  </section>
+
+  <section>
+    <div class="label" data-i18n="k_gets">Для клиники</div>
+    <h2 data-i18n="h_gets">Что даёт сайт</h2>
+    <div class="gets">
+      <div><b data-i18n="g1t">Один верный адрес и номер</b><span data-i18n="g1d">Часы с обедом, оба телефона и маршрут — на своём сайте. Ссылку можно поставить в Google Картах, Instagram и Facebook.</span></div>
+      <div><b data-i18n="g2t">Запись в любое время</b><span data-i18n="g2d">Клиент оставляет заявку вечером или в воскресенье — она приходит вам в WhatsApp, а утром вы подтверждаете время.</span></div>
+      <div><b data-i18n="g3t">Меньше одних и тех же вопросов</b><span data-i18n="g3d">Памятка «до и после операции»: сколько не кормить, что взять, когда звонить. Владельцы спокойнее, а у врача меньше повторных звонков.</span></div>
+      <div><b data-i18n="g4t">Врач и случаи на виду</b><span data-i18n="g4d">Вячеслав Анатольевич и истории из Instagram получают постоянное место, и их находят люди с такой же проблемой.</span></div>
+    </div>
+  </section>
+
+  <section>
+    <div class="label" data-i18n="k_plans">Стоимость</div>
+    <h2 data-i18n="h_plans">Пакеты</h2>
+    <div class="plans">
+      <div class="plan">
+        <div class="label" data-i18n="p1_l">Базовый</div>
+        <h3 data-i18n="p1_t">Сайт</h3>
+        <div class="price">3 500 <small>MDL</small></div>
+        <div class="sub" data-i18n="p1_s">разово · 5–7 дней</div>
+        <ul>
+          <li data-i18n="p1_1">Сайт на русском и румынском по этому концепту</li>
+          <li data-i18n="p1_2">Ваши тексты, услуги, фото врача и клиники</li>
+          <li data-i18n="p1_3">Кнопка звонка и запись через WhatsApp</li>
+          <li data-i18n="p1_4">Подключение вашего домена</li>
+          <li data-i18n="p1_5">Хостинг бесплатный — без ежемесячной платы</li>
+        </ul>
+      </div>
+      <div class="plan best">
+        <div class="label" data-i18n="p2_l">Рекомендую</div>
+        <h3 data-i18n="p2_t">Сайт + заявки</h3>
+        <div class="price">5 000 <small>MDL</small></div>
+        <div class="sub" data-i18n="p2_s">разово · 7–10 дней</div>
+        <ul>
+          <li class="plus" data-i18n="p2_0">Всё из «Базового», плюс:</li>
+          <li data-i18n="p2_1">Заявки с сайта приходят в Telegram</li>
+          <li data-i18n="p2_2">Отдельные страницы для 3 тем на выбор (например, стерилизация, хирургия, стоматология)</li>
+          <li data-i18n="p2_3">Счётчик посещений сайта</li>
+        </ul>
+      </div>
+      <div class="plan">
+        <div class="label" data-i18n="p3_l">По желанию</div>
+        <h3 data-i18n="p3_t">Поддержка</h3>
+        <div class="price">500 <small data-i18n="p3_unit">MDL / мес</small></div>
+        <div class="sub" data-i18n="p3_s">можно отключить в любой момент</div>
+        <ul>
+          <li data-i18n="p3_1">Обновляю тексты, часы и фото</li>
+          <li data-i18n="p3_2">Добавляю новые клинические случаи и объявления (выходные, праздники)</li>
+          <li data-i18n="p3_3">Правки в течение 1–2 дней</li>
+        </ul>
+      </div>
+    </div>
+    <p class="note" data-i18n="plans_note">Домен (например, bravovet.md) оформляется на клинику и оплачивается отдельно, по цене регистратора.</p>
+  </section>
+
+  <section>
+    <div class="label" data-i18n="k_how">Процесс</div>
+    <h2 data-i18n="h_how">Как запускаем</h2>
+    <ol class="steps">
+      <li><span class="when" data-i18n="s1_w">встреча</span><span data-i18n="s1">Вы смотрите концепт, правим тексты, услуги и памятку под вашу практику.</span></li>
+      <li><span class="when" data-i18n="s2_w">предоплата 50%</span><span data-i18n="s2">Вы присылаете фото врача и клиники, если хотите их на сайте.</span></li>
+      <li><span class="when" data-i18n="s3_w">доработка</span><span data-i18n="s3">Довожу сайт. Вы проверяете и согласовываете.</span></li>
+      <li><span class="when" data-i18n="s4_w">запуск</span><span data-i18n="s4">Подключаю домен, запускаем, остаток оплаты.</span></li>
+    </ol>
+  </section>
+
+  <div class="contact">
+    <div class="label" style="color:var(--sun)" data-i18n="k_contact">Контакт</div>
+    <h2 data-i18n="h_contact">Обсудим?</h2>
+    <p data-i18n="c_p">Напишите или позвоните — покажу концепт вживую и отвечу на вопросы.</p>
+    <div class="who"><span data-i18n="who">Никита Орманжи</span> · <a href="tel:+37368028555">068 028 555</a> · <a href="https://t.me/nikita_ormanzhi" target="_blank" rel="noopener">Telegram @nikita_ormanzhi</a></div>
+  </div>
+
+  <p class="note" data-i18n="note">Отзывы, памятка и часть данных в концепте предварительные — перед запуском всё сверяем с клиникой и врачом. Концепт закрыт от поисковых систем и не является официальным сайтом клиники «Команда Браво».</p>
+</div>
+
+<script>
+var DEMO_URL = "https://nichitaormanji.github.io/bravo-vet-demo/";
+
+var T = {
+  ro: {
+    _title:"Propunere pentru clinica Comanda Bravo",
+    from:"Propunere pentru clinica Comanda Bravo · noiembrie 2026", print:"PDF / tipar",
+    k_intro:"Site pentru clinica veterinară Comanda Bravo",
+    h1:"333 de recenzii și un medic pe care îl știu pe nume. <i>Lipsește doar site-ul.</i>",
+    lead:"Am pregătit un concept de site pentru clinica dvs. Funcționează deja, îl puteți deschide de pe telefon. Mai jos: ce îi aduce clinicii și cât costă lansarea.",
+    k_now:"Acum", h_now:"Ce am observat",
+    f1:"Clinica <b>nu are site</b>. Pe Google Maps, la o pagină cu 333 de recenzii, în locul linkului scrie „Adaugă site”.",
+    f2:"<b>Numere diferite</b> în locuri diferite: pe Google — fixul 022 661 444, pe Facebook și Yandex Maps — 079 588 317. Omul nu știe la care să sune.",
+    f3:"Primiți <b>doar cu programare</b>, dar programarea se face doar prin telefon, în orele de lucru. Seara și duminica omul amână — sau merge la altă clinică.",
+    f4:"Pe Instagram aveți cazuri clinice puternice: 19 calculi din uretră, o suzetă în intestinul unui cățel, corecția mușcăturii. Dar se pierd în flux și nu se găsesc din Google.",
+    k_demo:"Concept", h_demo:"Cum arată",
+    k_gets:"Pentru clinică", h_gets:"Ce aduce site-ul",
+    g1t:"O singură adresă și un număr corect", g1d:"Programul cu pauza de prânz, ambele telefoane și traseul — pe site-ul dvs. Linkul îl puteți pune pe Google Maps, Instagram și Facebook.",
+    g2t:"Programare oricând", g2d:"Clientul lasă cererea seara sau duminica — ea ajunge la dvs. pe WhatsApp, iar dimineața confirmați ora.",
+    g3t:"Mai puține întrebări repetate", g3d:"Memento „înainte și după operație”: câte ore fără mâncare, ce să ia, când să sune. Stăpânii sunt mai liniștiți, iar medicul primește mai puține apeluri repetate.",
+    g4t:"Medicul și cazurile la vedere", g4d:"Dl Veaceslav și poveștile de pe Instagram primesc un loc permanent, iar oamenii cu aceeași problemă le găsesc.",
+    k_plans:"Cost", h_plans:"Pachete",
+    p1_l:"De bază", p1_t:"Site", p1_s:"o singură dată · 5–7 zile",
+    p1_1:"Site în română și rusă după acest concept", p1_2:"Textele, serviciile, fotografiile medicului și ale clinicii", p1_3:"Buton de apel și programare prin WhatsApp", p1_4:"Conectarea domeniului dvs.", p1_5:"Hosting gratuit — fără plată lunară",
+    p2_l:"Recomand", p2_t:"Site + cereri", p2_s:"o singură dată · 7–10 zile",
+    p2_0:"Tot din „De bază”, plus:", p2_1:"Cererile de pe site ajung în Telegram", p2_2:"Pagini separate pentru 3 teme la alegere (de ex. sterilizare, chirurgie, stomatologie)", p2_3:"Contor de vizite pe site",
+    p3_unit:"MDL / lună", p3_l:"Opțional", p3_t:"Suport", p3_s:"se poate opri oricând",
+    p3_1:"Actualizez textele, programul și fotografiile", p3_2:"Adaug cazuri clinice noi și anunțuri (zile libere, sărbători)", p3_3:"Modificări în 1–2 zile",
+    plans_note:"Domeniul (de ex. bravovet.md) se înregistrează pe clinică și se plătește separat, la prețul registratorului.",
+    k_how:"Proces", h_how:"Cum lansăm",
+    s1_w:"întâlnire", s1:"Vedeți conceptul, ajustăm textele, serviciile și memento-ul după practica dvs.",
+    s2_w:"avans 50%", s2:"Îmi trimiteți fotografii cu medicul și clinica, dacă le doriți pe site.",
+    s3_w:"finisare", s3:"Finisez site-ul. Dvs. verificați și aprobați.",
+    s4_w:"lansare", s4:"Conectez domeniul, lansăm, restul plății.",
+    who:"Nichita Ormanji",
+    k_contact:"Contact", h_contact:"Discutăm?", c_p:"Scrieți-mi sau sunați — vă arăt conceptul și răspund la întrebări.",
+    note:"Recenziile, memento-ul și o parte din date din concept sunt preliminare — înainte de lansare totul se verifică cu clinica și cu medicul. Conceptul este închis pentru motoarele de căutare și nu este site-ul oficial al clinicii Comanda Bravo."
+  }
+};
+var RU = {};
+document.querySelectorAll("[data-i18n]").forEach(function(el){ RU[el.getAttribute("data-i18n")] = el.innerHTML; });
+RU._title = document.title;
+T.ru = RU;
+
+function setLang(l){
+  var t = T[l];
+  document.documentElement.lang = l; document.title = t._title;
+  document.querySelectorAll("[data-i18n]").forEach(function(el){ var k = el.getAttribute("data-i18n"); if (t[k] != null) el.innerHTML = t[k]; });
+  document.querySelectorAll(".lang button").forEach(function(b){ b.setAttribute("aria-pressed", b.getAttribute("data-lang")===l ? "true" : "false"); });
+  try { localStorage.setItem("cb_offer_lang", l); } catch(e){}
+}
+document.querySelectorAll(".lang button").forEach(function(b){ b.addEventListener("click", function(){ setLang(b.getAttribute("data-lang")); }); });
+
+var link = document.getElementById("demo-link");
+link.href = DEMO_URL; link.textContent = DEMO_URL.replace(/^https?:\/\//, "").replace(/\/$/, "");
+try {
+  var q = qrcode(0, "M"); q.addData(DEMO_URL); q.make();
+  document.getElementById("qr").innerHTML = q.createSvgTag({cellSize: 5, margin: 0, scalable: true});
+} catch(e) {}
+
+var saved = null; try { saved = localStorage.getItem("cb_offer_lang"); } catch(e){}
+var qp = (location.search.match(/[?&]lang=(ro|ru)/) || [])[1];
+if (qp) setLang(qp); else if (saved === "ro") setLang("ro");
+</script>
+</body>
+</html>
